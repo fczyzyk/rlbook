@@ -45,7 +45,7 @@ $\left[\prod_{t=1}^N d_t(w_t)\right] Y_{\max}$. Due to the operating cost of wat
 & 0 \leq u_t \leq q_t, & \quad & t = 1, \dots, N, \\
 & 0 \leq q_t, & \quad & t = 1, \dots, N, \\
 & a_0 = 1, & & \\
-\text{given} \quad & w_1, q_N. &
+\text{given} \quad & w_1, q_1. &
 \end{alignat*}
 
 The multiplicative form of the objective function coming from the yield term has been eliminated through by adding a new variable, $a_t$, representing the product accumulation of water deficiencies since the beginning of the season. 
