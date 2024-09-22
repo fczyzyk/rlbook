@@ -396,7 +396,7 @@ Compared to our simplified model, the Gym implementation makes the following add
 
 3. The control input $u$ is applied directly, without a $\cos \theta(t)$ term, which means that the applied torque has the same effect regardless of the pendulum's position, rather than varying with angle. For example, imagine trying to push a door open. When the door is almost closed (pendulum near vertical), a small push perpendicular to the door (analogous to our control input) can easily start it moving. However, when the door is already wide open (pendulum horizontal), the same push has little effect on the door's angle. In a more detailed model, this would be captured by the $\cos \theta(t)$ term, which is maximum when the pendulum is vertical ($\cos 0° = 1$) and zero when horizontal ($\cos 90° = 0$).
 
-The goal remains to stabilize the rod upright, but the way in which this encoded is through the following instantenous cost function:
+The goal remains to stabilize the rod upright, but the way in which this is encoded is through the following instantenous cost function:
 
 \begin{align*}
 c(\theta, \dot{\theta}, u) &= (\text{normalize}(\theta))^2 + 0.1\dot{\theta}^2 + 0.001u^2\\
