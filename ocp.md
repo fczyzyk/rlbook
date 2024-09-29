@@ -427,7 +427,7 @@ Then, there exist unique Lagrange multipliers $\lambda_i^* \in \mathbb{R}$, $i =
 2. Primal feasibility: $h_i(\mathbf{x}^*) = 0$, for $i = 1, \ldots, m$
 ````
 
-Note that both the stationarity and primal feasibility statements are simply saying that the derivative of the Lagrangian in either the primal or dual variables must be zero at an optimal constrained solution. In other words:
+Note that the stationarity and primal feasibility statements are simply saying that the derivative of the Lagrangian in both the primal and dual variables must be zero at an optimal constrained solution. In other words:
 
 $$
 \nabla_{\mathbf{x}, \boldsymbol{\lambda}} L(\mathbf{x}^*, \boldsymbol{\lambda}^*) = \mathbf{0}
