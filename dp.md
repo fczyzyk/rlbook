@@ -329,7 +329,7 @@ $$
 
 Here, $F(\cdot)$ represents the immediate reward function associated with harvesting, $h(t)$ is the harvest rate at time $t$, and $F_T[\cdot]$ denotes a terminal value function that could potentially assign value to the final population state. In this particular problem, we assign no terminal value to the final population state, setting $F_T[x(t_f)] = 0$ and allowing us to focus solely on the cumulative harvest over the time horizon.
 
-In our model population model, the abundance of a specicy $x$ ranges from 1 to 100 individuals. The decision variable is the harvest rate $h$, which can take values from the set $D = \{0, 0.1, 0.2, 0.3, 0.4, 0.5\}$. The population dynamics are governed by a modified logistic growth model:
+In our population model, the abundance of a species $x$ ranges from 1 to 100 individuals. The decision variable is the harvest rate $h$, which can take values from the set $D = \{0, 0.1, 0.2, 0.3, 0.4, 0.5\}$. The population dynamics are governed by a modified logistic growth model:
 
 $$
 x(t+1) = x(t) + 0.3x(t)(1 - x(t)/125) - h(t)x(t)
