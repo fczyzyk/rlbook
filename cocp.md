@@ -1279,7 +1279,7 @@ $$
 
 While direct single shooting is conceptually simple, it can suffer from numerical instabilities, especially for long time horizons or highly nonlinear systems. This phenomenon is akin to the vanishing and exploding gradient problem in deep learning (for example when unrolling an RNN over a long sequence). 
 
-Multiple shooting addresses these issues by breaking the time interval into multiple segments, treated individually indivual single shooting problems, and stiched back together via equality constraints. Not only this approach improves numerical stability but it also allows for easier incorporation of path constraints (which was otherwise difficult to do with single shooting). Another important benefit is that each subproblem can be solved in parallel, which can be beneficial from a computational point of view.
+Multiple shooting addresses these issues by breaking the time interval into multiple segments, treated individually indivual single shooting problems, and stitched back together via equality constraints. Not only this approach improves numerical stability but it also allows for easier incorporation of path constraints (which was otherwise difficult to do with single shooting). Another important benefit is that each subproblem can be solved in parallel, which can be beneficial from a computational point of view.
 
 Without loss of generality, consider a Mayer problem:
 
