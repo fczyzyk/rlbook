@@ -546,7 +546,7 @@ The reward function is denoted by $r_t(s, a)$, representing the reward received 
 
 $$r_t(s, a) = \sum_{j \in \mathcal{S}} r_t(s, a, j) p_t(j | s, a)$$
 
-Combined together, these elemetns specify a Markov decision process, which is fully described by the tuple:
+Combined together, these elements specify a Markov decision process, which is fully described by the tuple:
 
 $$\{T, S, \mathcal{A}_s, p_t(\cdot | s, a), r_t(s, a)\}$$
 
