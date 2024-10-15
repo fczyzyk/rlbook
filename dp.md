@@ -670,7 +670,7 @@ This equality significantly simplifies the computational complexity of our algor
 
         $$A_{s_t,t}^* = \arg\max_{a \in A_{s_t}} \left\{r_t(s_t, a) + \sum_{j \in S} p_t(j | s_t, a) v^*(j, t+1)\right\}$$
 
-3. Return the optimal value functions $u_t^*$ and optimal action sets $A_{s_t,t}^*$ for all $t$ and $s_t$
+3. Return the optimal value functions $v_t^*$ and optimal action sets $A_{s_t,t}^*$ for all $t$ and $s_t$
 ````
 
 Note that the same procedure can also be used for finding the value of a policy with minor changes; 
