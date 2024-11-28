@@ -802,7 +802,7 @@ $$
 \end{aligned}
 $$
 
-Here, the newly introduced state variable $z(t)$ containts the accumulated integral cost over time. The augmented system dynamics, $\tilde{\mathbf{f}}$, are defined as:
+Here, the newly introduced state variable $z(t)$ contains the accumulated integral cost over time. The augmented system dynamics, $\tilde{\mathbf{f}}$, are defined as:
 
 $$
 \tilde{\mathbf{f}}(\mathbf{x}, z, \mathbf{u}) = \begin{bmatrix}
