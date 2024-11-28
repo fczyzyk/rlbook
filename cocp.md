@@ -1546,7 +1546,7 @@ $$
 \end{aligned}
 $$
 
-The parameters $\alpha$, $\beta$, $\kappa$, and $R$ are non-negative weights that allow the designer to prioritize different aspects of performance (e.g., tight setpoint tracking vs. smooth control actions). We also constraint the control input to be within $0 \leq u(t) \leq 0.3$ due to the physical limitations of the valve.
+The parameters $\alpha$, $\beta$, $\kappa$, and $R$ are non-negative weights that allow the designer to prioritize different aspects of performance (e.g., tight setpoint tracking vs. smooth control actions). We also constrain the control input to be within $0 \leq u(t) \leq 0.3$ due to the physical limitations of the valve.
 
 The authors in {cite}`Grancharova2012` also add a soft path constraint $x_2(t) \geq 0.4$ to ensure that we maintain a minimum pressure at all time. This is implemented as a soft constraint using slack variables. The reason that we have the term $R v^2$ in the objective is to penalizes violations of the soft constraint: we allow for deviations, but don't want to do it too much.  
 
