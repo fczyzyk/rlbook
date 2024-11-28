@@ -1530,7 +1530,7 @@ $$
 
 The system parameters are given as $\gamma = 0.5$, $B = 1$, $H = 0.18$, $\psi_{c0} = 0.3$, and $W = 0.25$.
 
-One possible way to pose the problem {cite}`Grancharova2012` is by penalizing for the deviations to the setpoints using a quadratic penalty in the instantenous cost function as well as in the terminal one. Furthermore, we also penalize for taking large actions (which are energy hungry, and potentially unsafe) within the integral term. The idea of penalzing for deviations throughout is natural way of posing the problem when solving it via single shooting. Another alternative which we will explore below is to set the desired setpoint as a hard terminal constraint. 
+One possible way to pose the problem {cite}`Grancharova2012` is by penalizing for the deviations to the setpoints using a quadratic penalty in the instantenous cost function as well as in the terminal one. Furthermore, we also penalize for taking large actions (which are energy hungry, and potentially unsafe) within the integral term. The idea of penalizing for deviations throughout is natural way of posing the problem when solving it via single shooting. Another alternative which we will explore below is to set the desired setpoint as a hard terminal constraint. 
 
 The control objective is to stabilize the system and prevent surge, formulated as a continuous-time optimal control problem (COCP) in the Bolza form:
 
