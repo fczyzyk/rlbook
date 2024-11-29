@@ -249,6 +249,7 @@ where $\mathbf{F}$ encapsulates the stationarity, primal feasibility, dual feasi
 
 By leveraging this sensitivity information, we can predict changes in the optimal solution and "warm-start" the optimization process at the next time step in MPC. This concept is related to **numerical continuation**, where a complex optimization problem is solved by gradually transforming a simpler, well-understood problem into the more difficult one.
 
+## [MISSING TITLE]
 
 Unlike the methods we've discussed so far, dynamic programming takes a step back and considers not just a single optimization problem, but an entire family of related problems. This approach, while seemingly more complex at first glance, can often lead to efficient solutions.
 
