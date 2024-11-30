@@ -128,7 +128,7 @@ $$\begin{align*}
 \end{align*}
 $$
 
-Where SD stands for Stationary Deterministic and SR for Stationary Randomized. The largest set is by far the set of history randomized policies. 
+Where SD stands for Stationary Deterministic and SR for Stationary Randomized. The largest set is by far the set of history dependent randomized policies. 
 
 A fundamental question in MDP theory is: under what conditions can we avoid working with the set $\Pi^{HR}$ and focus for example on the much simpler set of deterministic Markovian policy? Even more so, we will see that in the infinite horizon case, we can drop the dependance on time and simply consider stationary deterministic Markovian policies. 
 
