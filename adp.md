@@ -406,7 +406,7 @@ However, we can't compute this integral exactly and use Monte Carlo integration 
 
 $$(\widehat{\mathrm{L}}v_i)(s) = \max_{a \in \mathcal{A}(s)} \hat{q}_i(s,a), \enspace \text{where} \enspace \hat{q}_i(s,a) \equiv r(s,a) + \frac{\gamma}{N} \sum_{j=1}^N v_i(s'_j), \quad s'_j \sim p(\cdot|s,a)$$
 
-White the Monte Carlo estimate $\hat{q}_n(s,a)$ is unbiased for any individual action, the empirical Bellman operator is biased upward due to Jensen's inequality, which states that for any convex function $f$, we have $\mathbb{E}[f(X)] \geq f(\mathbb{E}[X])$. Since the maximum operator is convex, this implies:
+While the Monte Carlo estimate $\hat{q}_n(s,a)$ is unbiased for any individual action, the empirical Bellman operator is biased upward due to Jensen's inequality, which states that for any convex function $f$, we have $\mathbb{E}[f(X)] \geq f(\mathbb{E}[X])$. Since the maximum operator is convex, this implies:
 
 $$\mathbb{E}[(\widehat{\mathrm{L}}v_i)(s)] = \mathbb{E}\left[\max_{a \in \mathcal{A}(s)} \hat{q}_i(s,a)\right] \geq \max_{a \in \mathcal{A}(s)} \mathbb{E}[\hat{q}_i(s,a)] = (\mathrm{L}v_i)(s)$$
 
