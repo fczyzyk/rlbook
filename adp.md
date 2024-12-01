@@ -938,7 +938,7 @@ There are several moving parts we can swap in and out when working with parametr
 
 Ormoneit and Sen's Kernel-Based Reinforcement Learning (KBRL) {cite}`Ormoneit2002` helped establish the general paradigm of batch reinforcement learning later advocated by {cite}`ErnstGW05`. KBRL is a purely offline method that first collects a fixed set of transitions and then uses kernel regression to solve the optimal control problem through value iteration on this dataset. While the dominant approaches at the time were online methods like temporal difference, KBRL showed that another path to developping reinforcement learning algorithm was possible: one that capable of leveraging advances in supervised learning to provide both theoretical and practical benefits. 
 
-As the name suggests, KBRL uses kernel based regression within the general framework of outlined above. 
+As the name suggests, KBRL uses kernel based regression within the general framework outlined above. 
 
 ```{prf:algorithm} Kernel-Based Q-Value Iteration
 :label: kernel-based-q-iteration
