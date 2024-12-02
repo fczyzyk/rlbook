@@ -894,7 +894,7 @@ Z_{\text{cv},t} = \nabla_{\boldsymbol{w}}\log d(a_t|s_t;\boldsymbol{w})\left(\su
 $$
 
 
-In practice when implementing this estimator, we won't have access to the true value function. So as we did earlier for NFQCA or SAC, we commonly learn that value function simultaneously with the policy. Do do so, we could either using a fitted value approach, or even more simply just regress from states to sum of rewards to learn what Williams 1992 called a "baseline": 
+In practice when implementing this estimator, we won't have access to the true value function. So as we did earlier for NFQCA or SAC, we commonly learn that value function simultaneously with the policy. To do so, we could either using a fitted value approach, or even more simply just regress from states to sum of rewards to learn what Williams 1992 called a "baseline": 
 
 ```{prf:algorithm} Policy Gradient with Simple Baseline
 :label: policy-grad-baseline
